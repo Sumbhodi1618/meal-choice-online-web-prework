@@ -1,6 +1,6 @@
 describe '#meal_choice' do
   it 'should default to meat' do
-    expect(meal_choice("meat")).to eq("meat")
+    expect(meal_choice(meal = "meat")).to eq(meal = "meat")
     puts "#{choice}"
   end
 
